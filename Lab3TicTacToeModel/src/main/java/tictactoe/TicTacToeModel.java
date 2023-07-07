@@ -114,7 +114,7 @@ public class TicTacToeModel implements TicTacToe {
     }
 
 
-    public Player isSameInRow(int r) {
+    private Player isSameInRow(int r) {
         if (getMarkAt(r, 0) == null) return null;
         else {
             if (getMarkAt(r, 0).equals(getMarkAt(r, 1))
@@ -125,7 +125,7 @@ public class TicTacToeModel implements TicTacToe {
     }
 
 
-    public Player isSameInColumn(int c) {
+    private Player isSameInColumn(int c) {
         if (getMarkAt(0, c) == null) return null;
         else {
             if (getMarkAt(0, c).equals(getMarkAt(1, c))
@@ -136,7 +136,7 @@ public class TicTacToeModel implements TicTacToe {
     }
 
 
-    public Player isDiagonalOne() {
+    private Player isDiagonalOne() {
         if (getMarkAt(0, 0) == null) {
             return null;
         } else {
@@ -150,7 +150,7 @@ public class TicTacToeModel implements TicTacToe {
     }
 
 
-    public Player isDiagonalTwo() {
+    private Player isDiagonalTwo() {
         if (getMarkAt(0, 2) == null) {
             return null;
         } else {
