@@ -25,8 +25,11 @@ but they can't change order with volatile variable instruction.
 Similarly, for read volatile variable is read first and then others are read. The ordering can't be changed.
 Ref: https://youtu.be/oY14UyP61F8 16:12
 
+Volatile keyword alone is not enough. It needs "synchronized" keyword.
+
 Synchronized Visibility Guarantee:
 For variables inside synchronized block, everytime thread reads these values,
 these values would be refreshed from main memory.
 
 Ref: https://youtu.be/oY14UyP61F8 19:07
+
