@@ -1,3 +1,5 @@
+package ThreadPackage;
+
 public class ThreadSleep {
 
     //sleep function will make thread wait execution by time given

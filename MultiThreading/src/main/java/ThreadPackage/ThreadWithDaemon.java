@@ -1,3 +1,5 @@
+package ThreadPackage;
+
 public class ThreadWithDaemon {
         public static void main(String[] args) {
                 Runnable runnable = () -> {

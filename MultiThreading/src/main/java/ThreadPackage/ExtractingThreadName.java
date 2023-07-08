@@ -1,3 +1,5 @@
+package ThreadPackage;
+
 public class ExtractingThreadName {
     //It is possible for runnable to get which thread is currently executing runnable
     //and thus it can get the name of that thread.

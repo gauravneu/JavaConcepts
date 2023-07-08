@@ -1,3 +1,5 @@
+package ThreadPackage;
+
 public class ThreadJoin {
     //We can ensure that one thread waits for other thread
     // to terminate in case we have daemon thread running for more time

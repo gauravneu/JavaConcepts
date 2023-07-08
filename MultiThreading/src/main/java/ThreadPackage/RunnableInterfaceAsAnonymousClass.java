@@ -1,3 +1,5 @@
+package ThreadPackage;
+
 public class RunnableInterfaceAsAnonymousClass {
     public static void main(String[] args) {
         Runnable runnable = new Runnable() {

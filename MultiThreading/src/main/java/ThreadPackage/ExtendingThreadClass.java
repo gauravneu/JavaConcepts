@@ -1,3 +1,5 @@
+package ThreadPackage;
+
 public class ExtendingThreadClass {
 
 

@@ -1,3 +1,5 @@
+package ThreadPackage;
+
 public class RunnableInterfaceWithLambda {
     public static void main(String[] args) {
         Runnable runnable = () -> {
