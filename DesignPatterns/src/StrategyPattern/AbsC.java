@@ -1,4 +1,4 @@
-package chapter1;
+package StrategyPattern;
 
 public class AbsC extends Abs{
     private final boolean isOn;

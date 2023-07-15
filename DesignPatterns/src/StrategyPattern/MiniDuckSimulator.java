@@ -1,4 +1,4 @@
-package chapter1;
+package StrategyPattern;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

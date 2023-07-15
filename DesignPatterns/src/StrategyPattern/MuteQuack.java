@@ -1,4 +1,4 @@
-package chapter1;
+package StrategyPattern;
 
 public class MuteQuack implements QuackBehavior{
     public void quack(){

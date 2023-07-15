@@ -1,5 +1,4 @@
-package chapter1;
-
+package StrategyPattern;
 public interface QuackBehavior {
     public void quack();
 }

@@ -1,4 +1,4 @@
-package chapter1;
+package StrategyPattern;
 
 public abstract class Abs {
 
