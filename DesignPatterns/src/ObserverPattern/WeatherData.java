@@ -23,19 +23,20 @@ public class WeatherData implements Subject {
     public void removeObserver(Observer o) {
         observerList.remove(o);
     }
-//since all observers implement update() method, we can use below code.
+
+    //since all observers implement update() method, we can use below code.
     @Override
     public void notifyObservers() {
-        for(Observer observer:observerList){
-            observer.update(temperature,humidity,pressure);
+        for (Observer observer : observerList) {
+            observer.update(temperature, humidity, pressure);
         }
     }
 
-    public void measurementsChanged(){
+    public void measurementsChanged() {
         notifyObservers();
     }
 
-    public void setMeasurements(float temperature, float humidity, float pressure){
+    public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;

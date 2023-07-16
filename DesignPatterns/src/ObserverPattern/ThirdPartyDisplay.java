@@ -1,20 +1,21 @@
 package ObserverPattern;
 
-public class ThirdPartyDisplay implements Observer, DisplayElement{
+public class ThirdPartyDisplay implements Observer, DisplayElement {
 
+    private final WeatherData weatherData;
     private float temperature;
     private float pressure;
-    private final WeatherData weatherData;
 
-    public ThirdPartyDisplay(WeatherData weatherData){
+    public ThirdPartyDisplay(WeatherData weatherData) {
 
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
+
     @Override
     public void display() {
-        System.out.println("Current Conditions: "+ "temperature = "+ temperature
-                +", pressure = " + pressure);
+        System.out.println("Current Conditions: " + "temperature = " + temperature
+                + ", pressure = " + pressure);
     }
 
     @Override

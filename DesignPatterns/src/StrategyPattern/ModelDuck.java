@@ -1,7 +1,7 @@
 package StrategyPattern;
 
-public class ModelDuck extends Duck{
-    public ModelDuck(){
+public class ModelDuck extends Duck {
+    public ModelDuck() {
         quackBehavior = new Squeak();
         flyBehavior = new FlyWithWings();
     }

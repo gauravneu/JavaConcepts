@@ -1,6 +1,6 @@
 package StrategyPattern;
 
-public class AbsC extends Abs{
+public class AbsC extends Abs {
     private final boolean isOn;
 
     {
@@ -13,7 +13,7 @@ public class AbsC extends Abs{
 //    }
 }
 
-class Demo{
+class Demo {
     public static void main(String[] args) {
 
 

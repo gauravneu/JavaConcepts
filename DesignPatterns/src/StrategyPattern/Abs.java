@@ -2,8 +2,8 @@ package StrategyPattern;
 
 public abstract class Abs {
 
-    public int he(){
+    public int he() {
         return 1;
-    };
+    }
 
 }

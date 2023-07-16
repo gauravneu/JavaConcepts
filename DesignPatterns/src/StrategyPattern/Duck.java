@@ -20,29 +20,33 @@ public abstract class Duck {
     // the parts that vary without affecting those that don’t.
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
-    public Duck(){}
 
+    public Duck() {
+    }
 
 
     public abstract void display();
-    public void performFly(){
+
+    public void performFly() {
         flyBehavior.fly();
     }
-    public void performQuack(){
+
+    public void performQuack() {
         quackBehavior.quack();
     }
-    public void swim(){
+
+    public void swim() {
         System.out.println("All ducks float, Even Decoys!");
     }
 
 
     //Below code is to set behavior dynamically
 
-    public void setFlyBehavior(FlyBehavior fb){
+    public void setFlyBehavior(FlyBehavior fb) {
         this.flyBehavior = fb;
     }
 
-    public void setQuackBehavior(QuackBehavior qb){
+    public void setQuackBehavior(QuackBehavior qb) {
         this.quackBehavior = qb;
     }
 }

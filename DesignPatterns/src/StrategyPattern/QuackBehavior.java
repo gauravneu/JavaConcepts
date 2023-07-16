@@ -1,4 +1,5 @@
 package StrategyPattern;
+
 public interface QuackBehavior {
-    public void quack();
+    void quack();
 }

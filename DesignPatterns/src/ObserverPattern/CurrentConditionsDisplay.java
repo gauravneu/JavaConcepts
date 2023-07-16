@@ -1,22 +1,23 @@
 package ObserverPattern;
 
-public class CurrentConditionsDisplay implements Observer, DisplayElement{
+public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
+    private final WeatherData weatherData;
     private float temperature;
     private float humidity;
     private float pressure;
-    private final WeatherData weatherData;
 
-    public CurrentConditionsDisplay(WeatherData weatherData){
+    public CurrentConditionsDisplay(WeatherData weatherData) {
         //We are keeping this weatherData object because it would help in deregister later
         // Otherwise we would have directly used weatherData from Constructor
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
+
     @Override
     public void display() {
-        System.out.println("Current Conditions: "+ "temperature = "+ temperature
-                + ", humidity = " + humidity +", pressure = " + pressure);
+        System.out.println("Current Conditions: " + "temperature = " + temperature
+                + ", humidity = " + humidity + ", pressure = " + pressure);
     }
 
     @Override
