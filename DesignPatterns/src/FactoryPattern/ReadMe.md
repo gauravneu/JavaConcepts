@@ -1,7 +1,8 @@
 new() -> concrete => programming to implementation
 that means if something extra gets added, and we are using new, then we need to modify code
-for adding that newly added thing.
-which would be violation of closed for modification
+for adding that newly added thing, which would be violation of closed for modification
+Coding to implementation means it will work with any class implementing that interface through polymorphism
+
 
 In the general use of the phrase, a concrete class implementing
 a method from a supertype (which could be a abstract class OR 
