@@ -1,4 +1,4 @@
-package ThreadPackage;
+package threadPackage;
 
 public class ThreadStop {
     //Java has a deprecated method called stop(),which should not be used because

@@ -1,4 +1,4 @@
-package SynchronizedKeyword;
+package synchronizedKeyword;
 
 //instance method means they are not static or class level
 // Declaring an instance method as synchronized means only

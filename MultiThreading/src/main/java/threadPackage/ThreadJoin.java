@@ -1,4 +1,4 @@
-package ThreadPackage;
+package threadPackage;
 
 public class ThreadJoin {
     //We can ensure that one thread waits for other thread

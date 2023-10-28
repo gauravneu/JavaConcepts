@@ -1,6 +1,4 @@
-package ThreadPackage;
-
-import javax.swing.plaf.TableHeaderUI;
+package threadPackage;
 
 public class RunnableInterfaceImplementation {
 //Implementing Runnable interface here and overwriting run method.

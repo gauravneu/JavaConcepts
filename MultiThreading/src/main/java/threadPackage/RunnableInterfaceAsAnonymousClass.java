@@ -1,4 +1,4 @@
-package ThreadPackage;
+package threadPackage;
 
 public class RunnableInterfaceAsAnonymousClass {
     public static void main(String[] args) {

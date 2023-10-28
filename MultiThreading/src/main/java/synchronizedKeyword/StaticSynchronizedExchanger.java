@@ -1,4 +1,4 @@
-package SynchronizedKeyword;
+package synchronizedKeyword;
 
 //monitor object is StaticSynchronizedExchanger class
 

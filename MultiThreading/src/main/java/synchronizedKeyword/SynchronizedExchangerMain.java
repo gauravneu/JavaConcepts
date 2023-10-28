@@ -1,4 +1,4 @@
-package SynchronizedKeyword;
+package synchronizedKeyword;
 
 public class SynchronizedExchangerMain {
     public static void main(String[] args) {

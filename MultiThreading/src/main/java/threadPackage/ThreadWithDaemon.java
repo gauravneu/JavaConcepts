@@ -1,4 +1,4 @@
-package ThreadPackage;
+package threadPackage;
 
 public class ThreadWithDaemon {
         public static void main(String[] args) {

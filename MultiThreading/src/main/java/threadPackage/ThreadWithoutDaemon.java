@@ -1,4 +1,4 @@
-package ThreadPackage;
+package threadPackage;
 
 import static java.lang.Thread.sleep;
 

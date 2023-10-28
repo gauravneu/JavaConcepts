@@ -1,4 +1,4 @@
-package SynchronizedKeyword;
+package synchronizedKeyword;
 //these two methods can be called by two different threads at same time
 public class MixedSynchronization {
     public static Object staticObj = null;

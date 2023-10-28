@@ -1,4 +1,4 @@
-package SynchronizedKeyword;
+package synchronizedKeyword;
 
 //even though both methods are synchronized but same thread is trying to access both at same time, there will be no issue.
 

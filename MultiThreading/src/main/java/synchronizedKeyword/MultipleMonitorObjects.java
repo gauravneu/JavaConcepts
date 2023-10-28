@@ -1,4 +1,4 @@
-package SynchronizedKeyword;
+package synchronizedKeyword;
 
 //two different threads can access two different blocks of same instance at same time
 

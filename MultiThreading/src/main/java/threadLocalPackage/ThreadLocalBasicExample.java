@@ -1,4 +1,4 @@
-package ThreadLocalPackage;
+package threadLocalPackage;
 
 
 //For each thread, threadLocal stores the value sets by that thread.
