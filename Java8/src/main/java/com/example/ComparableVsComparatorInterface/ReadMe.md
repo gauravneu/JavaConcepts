@@ -38,9 +38,10 @@ public int compareTo(PhoneNumber pn) {
     int result = Short.compare(areaCode, pn.areaCode);
     if (result == 0)  {
         result = Short.compare(prefix, pn.prefix);
-    if (result == 0)
-        result = Short.compare(lineNum, pn.lineNum);
-    }
+            if (result == 0){
+                result = Short.compare(lineNum, pn.lineNum);
+            }
+        }
     return result;
 }
 

@@ -28,5 +28,6 @@ public class ForEachDemo {
  //       map1.forEach((key,value) -> System.out.println(key+ " : "+ value));
   //      map1.entrySet().stream().forEach(obj -> System.out.println(obj));
         map1.entrySet().stream().filter(t-> t.getValue().equals("1")).forEach(System.out::println);
+        map1.entrySet().stream().filter(t-> t.getValue().equals("1")).forEach(System.out::println);
     }
 }
